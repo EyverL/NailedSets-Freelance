@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #A52A2A;
+    --secondary-color: #6a760c;
+    --tertiary-color: #542a0e;
+    --bg-color: #D9B99B;
+  }
+  
+  * {
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    transition-duration: 200ms;
+  }
+
+  .healthSafety {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-family: "Ewert", serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+  }
